@@ -1,0 +1,20 @@
+created_by: Noel O'Connor
+domain: rowing
+seed_examples:
+-   question: When was the CourtMaCSherry rowing club founded? 
+    answer: The Courtmacsherry Coastal Rowing Club was founded in 1991.
+- answer: the club has eleven boats, The Mary G, the Barry W, the Paddy B Celtic fixed seat yawls and the traditional yawl named the Argideen Queen, 
+    two FISA quads, two FISA doubles and three FISA singles.
+  question: What are the names and types of the clubs boats?
+- answer: The Club is based at Courtmacsherry Beach, West Cork, Ireland.
+  question: Where is the CourtMaCSherry rowing club based? 
+- answer: The Club hosted the ICRF All Ireland Coastal Rowing championships in August 2012.
+  question: When did the CourtMaCSherry rowing club host the ICRF All Ireland Coastal Rowing championships 
+task_description: ''
+document:
+  repo: http://www.courtmacsherryrc.com/about/default.html
+  commit: <commit-hash-to-use>
+  patterns:
+    - <file-search-patter 1>
+    - <file-search-patter 2>
+    - <file-search-patter 3>
